@@ -1,0 +1,10 @@
+# environment and downloaded models (recreate with scripts/setup.sh)
+.venv/
+models/
+# private: access key + TLS key for the LAN listener
+certs/
+logs/
+testdata/
+__pycache__/
+*.pyc
+.DS_Store
